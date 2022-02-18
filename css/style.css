@@ -1,0 +1,35 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,500;0,700;1,400;1,700&display=swap');
+
+body{
+    background-color: antiquewhite;
+}
+/* remove input tag design */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* error */
+#err-1{
+    display: none;
+    color: red;
+}
+#bal-error{
+    display: none;
+    color: red;
+}
+#income-Error{
+    display: none;
+    color: red;
+
+}
+#saving-Error {
+    display: none;
+    color: red;
+}
+#saving-Error-2 {
+    display: none;
+    color: red;
+}
